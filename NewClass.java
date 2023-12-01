@@ -34,7 +34,7 @@ public class NewClass {
         int değer1 = 0;
 
         try {
-            reader = new BufferedReader(new FileReader("C:\\Users\\samie\\OneDrive\\Belgeler\\NetBeansProjects\\btk_Akademi2\\src\\ders1__readingfiledemo1\\a.txt"));
+            reader = new BufferedReader(new FileReader("C:\\Users\\samie\\OneDrive\\Belgeler\\NetBeansProjects\\Akademik2\\src\\ders1__readingfiledemo1\\a.txt"));//burada tırnak işareti ile yazılan kısım a.txt dosyasının konumunu belirtmek zorundadır 
             String line = null;
             while ((line = reader.readLine()) != null) {//readLine nin amacı 1 satırı okuma amacıyla yazılmıştır boş değilse true dönderir                 
                 int değer = Integer.valueOf(line);
